@@ -28,3 +28,9 @@ chrome.action.onClicked.addListener((tab) => {
     function: reddenPage
   });
 });
+
+document.getElementById("bSubmit").addEventListener("click", testHandler);
+
+function testHandler(){
+  console.log("hello");
+}
