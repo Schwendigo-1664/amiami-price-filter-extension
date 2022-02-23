@@ -1,0 +1,23 @@
+{
+  "name": "Price Filter",
+  "description": "Price Filter",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {},
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
