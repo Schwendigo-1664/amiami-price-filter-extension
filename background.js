@@ -13,8 +13,8 @@ function reddenPage() {
   const collectionJP = document.getElementsByClassName("product_box");
   if (collectionJP.length > 0) {
     for (var i = collectionJP.length - 1; i >= 0; i--) {
-      if (collectionJP[i].getElementsByClassName("product_price")[0].textContent.replace(/[,]/ig, '') < 4500 ||
-          collectionJP[i].getElementsByClassName("product_price")[0].textContent.replace(/[,]/ig, '') > 9000) {
+      if (collectionJP[i].getElementsByClassName("product_price_something")[0].textContent.replace(/[,]/ig, '') < 4500 ||
+          collectionJP[i].getElementsByClassName("product_price_something")[0].textContent.replace(/[,]/ig, '') > 9000) {
         collectionJP[i].parentNode.removeChild(collectionJP[i]);
       }
       //console.log(collectionJP[i].getElementsByClassName("product_price")[0].textContent.replace(/[,]/ig, ''));
