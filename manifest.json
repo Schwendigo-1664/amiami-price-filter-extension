@@ -3,7 +3,7 @@
   "description": "Price Filter",
   "version": "0.1",
   "manifest_version": 3,
-  "action": {},
+  "action": {"default_popup": "setRange.html"},
   "permissions": [
     "activeTab",
     "scripting"
